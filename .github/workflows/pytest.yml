@@ -1,6 +1,6 @@
-name: Python package
+name: Python tests
 
-on: [pull_request]
+on: [push]
 
 jobs:
   build:
