@@ -1,10 +1,11 @@
-from functions import distance
+from api_distance_public_transportation.functions import distance
+from api_distance_public_transportation.models import Payload
 from fastapi import FastAPI
-from models import Payload
+
 
 app = FastAPI()
 
 @app.post("/")
-async def model_predict_etr(payload: Payload) -> dict:
+async def my_distance(payload: Payload) -> dict:
     dist = await distance(payload)    
     return dist

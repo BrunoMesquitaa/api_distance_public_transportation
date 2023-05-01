@@ -2,12 +2,20 @@
 name = "api-distance-public-transportation"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["BrunoMesquitaa <bruno2707@gmail.com>"]
 readme = "README.md"
 packages = [{include = "api_distance_public_transportation"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.95.1"
+geopandas = "^0.12.2"
+pandas = "^2.0.1"
+pydantic = "^1.10.7"
+uvicorn = "^0.22.0"
+pytest = "^7.3.1"
+matplotlib = "^3.7.1"
+httpx = "^0.24.0"
 
 
 [build-system]

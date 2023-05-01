@@ -1,9 +1,7 @@
 from functools import lru_cache
-from constants import Constants
+from api_distance_public_transportation.constants import Constants
 import geopandas as gpd
 import pandas as pd
-
-
 
 
 @lru_cache(maxsize=1280)
@@ -29,4 +27,3 @@ async def distance(data: dict) -> dict:
                     '_km'] = round((geodf.distance(single_track_line) / 1000).loc[0], 2)
 
     return dict_return
-
