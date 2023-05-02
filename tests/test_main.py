@@ -18,8 +18,7 @@ def test_sucess():
         "estacao_metro_km": 0.45,
         "estacao_trem_km": 3.31,
         "ponto_onibus_km": 0.26,
-        "terminal_onibus_km": 2.35,
-        "bicicletario_paraciclo_km": 2.25
+        "terminal_onibus_km": 2.35
     }
 
 
