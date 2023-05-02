@@ -24,7 +24,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: .
-          file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/api_distance_public_transportation:${{ env.RELEASE_VERSION }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/api_distance_public_transportation:${{  github.ref_name }}
