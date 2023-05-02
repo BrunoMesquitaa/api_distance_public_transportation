@@ -1,6 +1,6 @@
 <div align="center">
 
-# API Distância do Transporte público em São Paulo-BR :bus:
+# API Distance of Public Transportation in São Paulo-BR :bus:
 [![Python tests](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml/badge.svg)](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml)
 </div>
 
@@ -8,41 +8,41 @@
 
 <div align="center">
 
-### **English version**: <a href="https://github.com/BrunoMesquitaa/api_distance_public_transportation/blob/main/README-eng.md">README.md</a>
+### **Portuguese version**: <a href="https://github.com/BrunoMesquitaa/api_distance_public_transportation/blob/main/README.md">README.md</a>
 
 </div>
 
 ---
-## Sobre a API:
-> #### O principal objetivo dessa API REST é calcular a distância entre um ponto específico (latitude, longitude) e o transporte público mais próximo.
+## About the API:
+> #### The main objective of this REST API is to calculate the distance between a specific point (latitude, longitude) and the nearest public transportation.
 >
-> Usando como base: 
+> Using as basis: 
 >
 >> Framework FastAPI:
->>> Documentação: https://fastapi.tiangolo.com
+>>> Documentation: https://fastapi.tiangolo.com
 >>>
->>> Código Fonte: https://github.com/tiangolo/fastapi
+>>> Source code: https://github.com/tiangolo/fastapi
 >>
 >> GeoPandas:
->>> Documentação: https://geopandas.org/en/stable/
+>>> Documentation: https://geopandas.org/en/stable/
 >>>
->>> Código Fonte: https://github.com/geopandas/geopandas
+>>> Source code: https://github.com/geopandas/geopandas
 >
-> Dados:
+> Data:
 >
 >> Shapefiles: https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
 ---
 
-## Rodando o Projeto:
+## Running the Project:
 > ### Local :3rd_place_medal: :
 >
-> Recomendo utilizar um virtualenv.
+> I recommend using a virtualenv.
 >
-> Instalação dos pacotes:
+> Installation of packages:
 >```console
 > poetry install
 > ```
-> ou
+> or
 >```console
 > pip install --no-cache-dir --upgrade -r requirements.txt
 > ```
@@ -52,7 +52,7 @@
 > uvicorn api_distance_public_transportation.main:app --reload
 > ```
 > 
-> Documentação :point_down:
+> Documentation :point_down:
 >> http://127.0.0.1:8000/docs
 >>
 >> http://127.0.0.1:8000/redoc
@@ -64,38 +64,38 @@
 > docker build -t {name_docker} .
 > docker run -p 8080:8080 {name_docker}
 > ```
-> Documentação :point_down:
+> Documentation :point_down:
 >> http://127.0.0.1:8080/docs
 >>
 >> http://127.0.0.1:8080/redoc
 > ---
 > ### K8s :1st_place_medal: :
-> Eu usei o Minikube então pode ser necessário adaptar dependendo do caso.
+> I used Minikube so it may be necessary to adapt depending on the case.
 >
-> Algumas configurações interessantes se for usar Minikube:
+> Some interesting configurations if you are going to use Minikube:
 > ```console
 > minikube start
 > minikube addons enable ingress
 > alias kubectl="minikube kubectl --"
 > ```
-> Criando nossos recursos no K8s:
+> Creating our resources on K8s:
 > ```console
 > kubectl apply -f k8s/kube_deployment.yaml
 > ```
-> Pegando informações do nosso ingress:
+> Getting information from our ingress:
 > ```console
 > kubectl get ingress
 > ```
 > 
-> Utilizando a IP do ADDRESS podemos acessar a aplicação.
+> Using the ADDRESS IP we can access the application.
 > ![get ingress](images/ingress.png)
 >
-> Documentação :point_down:
+> Documentation :point_down:
 >> http://192.168.49.2/docs
 >>
 >> http://192.168.49.2/redoc
 >
-> Observação usamos uma imagem no DockerHub :point_right: [bmesquitaa](https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general)
+> Note that we used an image on DockerHub :point_right: [bmesquitaa](https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general)
 ---
 
 ## Exemplo:

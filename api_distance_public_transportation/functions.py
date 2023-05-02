@@ -4,7 +4,7 @@ import geopandas as gpd
 import pandas as pd
 
 
-@lru_cache(maxsize=1280)
+@lru_cache(maxsize=12)
 def open_shp(shp_name: str):
     shp = gpd.read_file(shp_name)
     return shp
