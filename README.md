@@ -6,7 +6,7 @@
 
 ---
 
-### **English version**: <a href="https://github.com/BrunoMesquitaa/api_distance_public_transportation/blob/main/README-eng.md">README.md</a>
+### **English version**: <a target="_blank" href="https://github.com/BrunoMesquitaa/api_distance_public_transportation/blob/main/README-eng.md">README.md</a>
 
 ---
 ## Sobre a API:
@@ -92,7 +92,7 @@
 >>
 >> http://192.168.49.2/redoc
 >
-> Observação usamos uma imagem no DockerHub :point_right: [bmesquitaa](https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general)
+> Observação usamos uma imagem no DockerHub :point_right: <a target="_blank" href="https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general">bmesquitaa</a>
 
 ---
 
