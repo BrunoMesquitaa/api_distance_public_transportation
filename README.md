@@ -54,7 +54,9 @@
 >> http://127.0.0.1:8000/docs
 >>
 >> http://127.0.0.1:8000/redoc
+>
 > ---
+> 
 > ### Docker 🥈 :
 >
 > Build e Run:
@@ -66,7 +68,9 @@
 >> http://127.0.0.1:8080/docs
 >>
 >> http://127.0.0.1:8080/redoc
+>
 > ---
+> 
 > ### K8s 🥇 :
 > Eu usei o Minikube então pode ser necessário adaptar dependendo do caso.
 >
