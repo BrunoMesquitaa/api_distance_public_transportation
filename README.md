@@ -26,7 +26,7 @@
 >
 > Dados:
 >
->> </p>Shapefiles: https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx</p>
+>> Shapefiles: https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
 ---
 
 ## Rodando o Projeto:
