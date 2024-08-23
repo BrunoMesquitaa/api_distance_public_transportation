@@ -1,18 +1,12 @@
-<div align="center">
-  
+
 <img src="api_distance_public_transportation.jpeg" width="500">
 
 # API Distância do Transporte público em São Paulo-BR :bus:
 [![Python tests](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml/badge.svg)](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml)
-</div>
 
 ---
 
-<div align="center">
-
 ### **English version**: <a href="https://github.com/BrunoMesquitaa/api_distance_public_transportation/blob/main/README-eng.md">README.md</a>
-
-</div>
 
 ---
 ## Sobre a API:
