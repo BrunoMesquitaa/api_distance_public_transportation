@@ -1,7 +1,8 @@
 
 <img src="api_distance_public_transportation.jpeg" width="500">
 
-# API Distância do Transporte público em São Paulo-BR :bus:
+# API Distância do Transporte público em São Paulo-BR 🚌
+
 [![Python tests](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml/badge.svg)](https://github.com/BrunoMesquitaa/api_distance_public_transportation/actions/workflows/pytest.yml)
 
 ---
@@ -31,7 +32,7 @@
 ---
 
 ## Rodando o Projeto:
-> ### Local :3rd_place_medal: :
+> ### Local 🥉 :
 >
 > Recomendo utilizar um virtualenv.
 >
@@ -49,24 +50,24 @@
 > uvicorn api_distance_public_transportation.main:app --reload
 > ```
 > 
-> Documentação :point_down:
+> Documentação 👇
 >> http://127.0.0.1:8000/docs
 >>
 >> http://127.0.0.1:8000/redoc
 > ---
-> ### Docker :2nd_place_medal: :
+> ### Docker 🥈 :
 >
 > Build e Run:
 > ```console
 > docker build -t {name_docker} .
 > docker run -p 8080:8080 {name_docker}
 > ```
-> Documentação :point_down:
+> Documentação 👇
 >> http://127.0.0.1:8080/docs
 >>
 >> http://127.0.0.1:8080/redoc
 > ---
-> ### K8s :1st_place_medal: :
+> ### K8s 🥇 :
 > Eu usei o Minikube então pode ser necessário adaptar dependendo do caso.
 >
 > Algumas configurações interessantes se for usar Minikube:
@@ -87,12 +88,12 @@
 > Utilizando a IP do ADDRESS podemos acessar a aplicação.
 > ![get ingress](images/ingress.png)
 >
-> Documentação :point_down:
+> Documentação 👇
 >> http://192.168.49.2/docs
 >>
 >> http://192.168.49.2/redoc
 >
-> Observação usamos uma imagem no DockerHub :point_right: <a target="_blank" href="https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general">bmesquitaa</a>
+> Observação usamos uma imagem no DockerHub 👉 <a target="_blank" href="https://hub.docker.com/repository/docker/bmesquitaa/api_distance_public_transportation/general">bmesquitaa</a>
 
 ---
 
